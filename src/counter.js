@@ -14,4 +14,3 @@ function Counter() {
 export default Counter;
 
 /*  useState(0) React ka built-in hook hai, jo React se aata hai.
-Agar tum useState import nahi karoge, toh error aayega. */
