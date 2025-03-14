@@ -11,7 +11,7 @@ function Home() {
       {/* Banner Section */}
       <div className="banner" 
         style={{
-          backgroundImage: "url('/images/banner.jpg')",
+          // backgroundImage: "url('/images/banner.jpg')",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center center",
@@ -92,7 +92,7 @@ function Home() {
         <div className="about-image"  
               
               style={{
-                backgroundImage: "url('/images/aboutus.jpg')",
+                // backgroundImage: "url('/images/aboutus.jpg')",
                
               }}
             >
@@ -123,52 +123,7 @@ function Home() {
 </div>
 
 
-       
-<div className="contact-section"                >
-  <h2>Contact Us</h2>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis 
-    dignissimos eaque doloremque, nulla mollitia facilis.
-  </p>
 
-  <div className="contact-container">
-    {/* Left Side - Contact Info */}
-    <div className="contact-info">
-      <div className="info-item">
-        <i className="fas fa-map-marker-alt"></i>
-        <div>
-          <h4>Address</h4>
-          <p>4517 Sugar Camp Road, Owatonna, Minnesota, 55060</p>
-        </div>
-      </div>
-      <div className="info-item">
-        <i className="fas fa-phone-alt"></i>
-        <div>
-          <h4>Phone</h4>
-          <p>561-456-2321</p>
-        </div>
-      </div>
-      <div className="info-item">
-        <i className="fas fa-envelope"></i>
-        <div>
-          <h4>Email</h4>
-          <p>example@email.com</p>
-        </div>
-      </div>
-    </div>
-
-    {/* Right Side - Contact Form */}
-    <div className="contact-form">
-      <h3>Send Message</h3>
-      <form>
-        <input type="text" placeholder="Full Name" required />
-        <input type="email" placeholder="Email" required />
-        <textarea placeholder="Type your Message..." required></textarea>
-        <button type="submit">Send</button>
-      </form>
-    </div>
-  </div>
-</div>
 
 
 
